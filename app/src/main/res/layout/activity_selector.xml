@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ yidingliu.com Inc. * Copyright (c) 2016 All Rights Reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.SelectorActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnSelectorArea"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="选择地区"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/textTitleSizeBold" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnSelectorTime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_weight="1"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorBlack"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="选择时间"
+        android:textSize="@dimen/textTitleSizeBold" />
+</LinearLayout>

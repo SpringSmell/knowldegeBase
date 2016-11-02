@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_ac797f1d32973130b5b15120cf2f4e344ad4ce4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.github.bumptech.glide/okhttp3-integration/1.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="07a1832fdb6b44c0f4ec761ac3de02bfd3508269">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.bumptech.glide-okhttp3-integration-1.4.0_5e2f2191f21ad2bd43b9fab0c7f4ed5f63926762/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e43237daf1016095cc25e4ab337a7fb2c12a9381/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_274c0b2f53b209677e72fc24c6a5b5a61c232bdc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_d71ea0364069886c318ffb48cc1730b3545b6410/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d60fd5d2f6da0a444e65caac4e1191f1b1478a94">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fe1897e170b67c5085a6cf21f7c18092b58142fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_cd30c9a663676508eac996b3414412f2ca049023/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_cc86caf84772d148a1daf3e3425637101e5a5d32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/knowldegeBase/knowldegelibrary/unspecified/jars/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/8/nineoldandroids-2.4.0_800c5eec5cd9943721c7b34fddc4a22dd5d924c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/knowldegeBase/knowldegelibrary/unspecified/jars/libs/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="cc96a1b8821438d09a3fdbd22f7206d4dee358c3">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/8/okio-1.6.0_db85b4ec5b2380d8a7189a7c1f511c312cb58553/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_e36ce09273710021f2879680370f08d244c115ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_2587dd8ef25410b6ae353f18461548b9f7b96492/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_5439159f9383530dfc6b87c8ee32c336ef718a78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_459011f391b9e4cb26cd5d01cd469b61f97c022f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_d70f457f9fa2f61586ff32f5b67c337a8214b94f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_39fdd3cea43c2001bc79d060ea38abead53ef96c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="44a63c2a13f84557979300790398c108c7b07a47">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_473ef8693224ac3c683e74c68b4a00fe32c8691d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_207d837fcd3681dfc0329468ac3960e7499163bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_2fe5b02aadd04469410e9ab4d024cf9385d7d1a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/knowldegeBase/knowldegelibrary/unspecified/jars/libs/okhttp-3.0.0-RC1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9f8e76a3892e901f4b4d78c12bb3d93f7380d1fc">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/8/okhttp-3.0.0-RC1_2251c7c4b1cd3172b876a19fa559882f63c3212a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_5afe7bfe4d86058543628fc754a9c0070018d21d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f3533d7a41e401fda26c89cfea69ff0e81af4d72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_53dc4318ae07cb6a4ac2dd060f45b0899008132e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_056a91a5ef5ea94f7abb1679c158b639afd7f0a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/chriszou/360云盘/knowldegeBase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_066ac5ae0fe7370a5baf6ce03fdb7a4969608838/classes.dex" />
+    </item>
+
+</items>

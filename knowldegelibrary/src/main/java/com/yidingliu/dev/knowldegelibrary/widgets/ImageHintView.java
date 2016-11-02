@@ -1,0 +1,121 @@
+package com.yidingliu.dev.knowldegelibrary.widgets;
+
+/**
+ * 图片右上角小圆点
+ *
+ * @author Administrator
+ * @Date 2016/10/19 0019
+ * @modifyInfo1 Administrator-2016/10/19 0019
+ * @modifyContent
+ */
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.PointF;
+import android.util.AttributeSet;
+import android.widget.ImageView;
+
+import com.yidingliu.dev.knowldegelibrary.tools.CommonUtils;
+import com.yidingliu.dev.knowldegelibrary.tools.FormatUtils;
+import com.yidingliu.dev.knowldegelibrary.tools.TextUtil;
+
+
+/**
+ * 请填写方法内容
+ *
+ * @author Chris zou
+ * @Date 16/10/17
+ * @modifyInfo1 chriszou-16/10/17
+ * @modifyContent
+ */
+public class ImageHintView extends ImageView {
+
+    private Paint mHintPaint;
+    private Paint mHintBgPaint;
+    private int mHintBgColor;
+    private int mHintColor;
+    private int mHintSize;
+    private String mHint;
+
+    private int mHintSpace;
+
+    public ImageHintView ( Context context ) {
+
+        this ( context, null );
+    }
+
+    public ImageHintView ( Context context, AttributeSet attrs ) {
+
+        super ( context, attrs );
+        init ();
+    }
+
+    private void init () {
+        mHintSpace = FormatUtils.dip2px ( getContext (), 4 );
+
+        mHintBgColor = Color.RED;
+        mHintColor = Color.WHITE;
+        mHintSize = FormatUtils.dip2px ( getContext (), 12 );
+
+        mHintPaint = new Paint ();
+        mHintPaint.setAntiAlias ( true );
+        mHintPaint.setColor ( mHintColor );
+
+        mHintBgPaint = new Paint ();
+        mHintBgPaint.setColor ( mHintBgColor );
+        mHintBgPaint.setAntiAlias ( true );
+    }
+
+    @Override protected void onDraw ( Canvas canvas ) {
+
+        super.onDraw ( canvas );
+        if ( TextUtil.isEmpty ( mHint ) ) {
+            return;
+        }
+        mHintPaint.setTextSize ( mHintSize );
+
+        float hintWidth  = mHintPaint.measureText ( mHint );
+        float hintHeight = CommonUtils.getFontHeight ( mHintPaint, mHint );
+
+        PointF circlePoint = new PointF ();
+        circlePoint.x = getWidth () - mHintSpace - hintWidth;
+        circlePoint.y = mHintSpace + hintHeight;
+        drawCircle ( canvas, circlePoint, hintHeight * 0.8f, mHintBgPaint );
+
+        PointF txtPoint = new PointF ();
+        txtPoint.x = circlePoint.x - hintWidth / 2;
+        txtPoint.y = circlePoint.y + hintHeight / 2;
+        drawText ( canvas, mHint, txtPoint, mHintPaint );
+    }
+
+    private void drawText ( Canvas canvas, String hint, PointF point, Paint paint ) {
+
+        canvas.drawText ( hint, point.x, point.y, paint );
+    }
+
+    private void drawCircle ( Canvas canvas, PointF point, float radius, Paint paint ) {
+
+        canvas.drawCircle ( point.x, point.y, radius, paint );
+    }
+
+    public void setHint ( String hint ) {
+
+        setConfig ( hint, mHintSize, mHintColor, mHintBgColor );
+    }
+
+    public void setHintSize ( int hintSize ) {
+
+        setConfig ( mHint, hintSize, mHintColor, mHintBgColor );
+    }
+
+    public void setConfig ( String hint, int hintSize, int hintColor, int hintBgColor ) {
+
+        this.mHint = hint;
+        this.mHintSize = hintSize;
+        this.mHintColor = hintColor;
+        this.mHintBgColor = hintBgColor;
+        postInvalidate ();
+    }
+}

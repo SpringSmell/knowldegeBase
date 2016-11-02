@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ yidingliu.com Inc. * Copyright (c) 2016 All Rights Reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/showNotiBtn"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:text="显示headUp横幅通知"
+        android:padding="20dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/sortListView"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorBlack"
+        android:text="SortListView"
+        android:padding="20dp"
+        android:layout_height="wrap_content" />
+
+    <com.yidingliu.dev.knowldegelibrary.widgets.VoiceWaveView
+        android:id="@+id/voiceWaveView"
+        android:layout_width="150dp"
+        android:background="@drawable/shape_rec_black80"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="150dp" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <com.yidingliu.dev.knowldegelibrary.widgets.SlideDirectionView
+        android:id="@+id/sideDirection"
+        android:layout_width="match_parent"
+        android:text="按下 说话"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200px"
+    android:layout_height="200px"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/shape_black"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:progress="10"
+        android:progressTint="@color/colorBlueShallow"
+        android:progressBackgroundTintMode="multiply"
+        android:progressDrawable="@color/colorBlueShallow"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         />
+    <!--<android.support.v4.widget.ContentLoadingProgressBar-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--style="?android:attr/android:progressBarStyleHorizontal"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_height="50dp" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorGray"
+        android:layout_marginTop="10dp"
+        android:text="载入中..." />
+</RelativeLayout>

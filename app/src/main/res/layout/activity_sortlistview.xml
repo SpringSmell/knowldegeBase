@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <com.yidingliu.dev.knowldegelibrary.widgets.ClearEditText
+        android:id="@+id/filter_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:hint="请输入关键字"
+        android:maxLines="1"
+        android:textSize="15.0dip" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:id="@+id/country_lvcountry"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:divider="@null" />
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/shape_oval_gold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="30.0dip"
+            android:visibility="invisible" />
+
+        <com.yidingliu.dev.knowldegelibrary.widgets.SideBarView
+            android:id="@+id/sidrbar"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp" />
+    </FrameLayout>
+
+</LinearLayout>

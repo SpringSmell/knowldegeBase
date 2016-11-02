@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/voiceValue"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="未监听到音量"
+        android:layout_height="wrap_content" />
+    <com.yidingliu.dev.knowldegelibrary.widgets.VoiceWaveView
+        android:id="@+id/voiceWaveView"
+        android:layout_width="150dp"
+        android:background="@drawable/shape_rec_black80"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_height="150dp" />
+    <com.yidingliu.dev.knowldegelibrary.widgets.SlideDirectionView
+        android:id="@+id/slideDirection"
+        android:layout_width="match_parent"
+        android:text="按下 说话"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
